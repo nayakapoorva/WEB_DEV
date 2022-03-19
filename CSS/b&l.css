@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: blueviolet;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#into{
+    font-family: cursive;
+    text-align: justify;
+    border: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.a{
+    font-family: cursive;
+    text-align: justify;
+    border: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.container{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: bisque;
+}
+
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin: 20px ;
+    float: none;
+    padding: auto;
+    background-color: crimson;
+    color: black;
+    font-size: 22px;
+}
+
+.bu{
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin: 20px ;
+    float: none;
+    padding: auto;
+    background-color: crimson;
+    font-size: 20px;
+    border-color: black;
+}
+
+a:hover,button:hover{
+    color: thistle;
+    background-color: yellow;
+}
+
+a:visited{
+    background-color: blue;
+    
+}
