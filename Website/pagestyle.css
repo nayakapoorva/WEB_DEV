@@ -1,0 +1,106 @@
+body{
+    background-image: url("bg.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+}
+.left{
+    color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: solid 2px whitesmoke;
+    border-radius: 100px;   
+}
+.left img{
+    height: 75px;
+    width: 75px;
+}
+.center{
+    color: whitesmoke;
+    width: 40%;
+    top: 5px;
+    margin: 10px auto;
+    padding: 5px 5px;
+    display: block;
+    border: solid 2px rgb(10, 114, 10);
+    border-radius: 50px;
+    
+}
+.right{
+    color: whitesmoke;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    display: inline-block;
+    border: solid 2px rgb(102, 119, 7);
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 17px;
+    border: solid 2px rgb(75, 102, 64);
+    border-radius: 2px;
+    text-align: right;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(63, 50, 50);
+}
+.nav_bar a{
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.nav_bar a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.nav_bar a.active{
+    color: grey;
+    text-decoration: underline;
+}
+.formreg{
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
+    width: 37%;
+    height: 50%;
+    float: right;
+    margin: 97px 43px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.formreg input{
+    width: 75%;
+    text-align: center;
+    padding: 5px 5px ;
+    margin: 5px 50px;
+    font-size: large;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+}
+.butt button{
+    text-align: center;
+    width: 75%;
+    padding: 5px 5px ;
+    margin: 5px 50px;
+    font-size: large;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    
+}
+.formreg h2{
+    color: whitesmoke;
+    text-decoration: underline;
+    text-align: center;
+}
