@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav_bar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+/* logo design */
+#logo{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#logo img{
+    height: 100px;
+    width: 100px;
+}
+/* navigation items */
+.nav_bar ul{
+    display: flex;
+}
+#items li{
+    list-style: none;
+    padding: 10px 10px;
+    margin: 5px 5px;
+}
+#items li a{
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+    color:brown;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#items li a:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+
+/* home */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+#home::before{
+    content: " ";
+    background: url('img/bg4.jpg') no-repeat center center/cover;
+    background-size:100vw 100vh;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.95;
+}
+
+#home h1{
+    text-align: center;
+    color: rgb(46, 16, 12);
+    font-size: 2.5rem;
+    padding: 15px 15px;
+    text-shadow: 2px 2px 2px rgb(63, 46, 13);
+    margin: 15px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    margin: 5px 5px;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    border: solid 2px rgb(80, 56, 21);
+    box-shadow: 3px 3px 2px rgb(63, 46, 13);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* services */
+
+#services{
+    margin-top: 150px;
+}
+#services h1{
+    text-align: center;
+    color: rgb(46, 16, 12);
+    font-size: 2.5rem;
+    padding: 15px 15px;
+    text-shadow: 2px 2px 2px rgb(63, 46, 13);
+    margin: 5px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.service-centent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#box1{
+    border: solid 2px red;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+.box-img{
+    height: 300px;
+    width: 300px;
+    padding: 2px 2px;
+}
+.box-heading{
+    text-align: center;
+    color: rgb(46, 16, 12);
+    font-size: 1.2em;
+    padding: 10px 10px;
+    text-shadow: 2px 2px 2px rgb(63, 46, 13);
+    margin: 10px 10px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box-para{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 5px;
+}
+#box2{
+        border: solid 2px red;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+        padding: 5px 5px;
+    margin: 5px 5px;
+}
+#box3{
+    border: solid 2px red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+#box3 img{
+    height: 200px;
+    width: 300px;
+    padding: 2px 2px;
+}
+#box4{
+    border: solid 2px red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px 5px;
+margin: 5px 5px;
+}
+#box5{
+    border: solid 2px red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px 5px;
+margin: 5px 5px;
+}

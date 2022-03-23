@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+        <title>Hello Web Development Tutorial</title>
+
+        <style>
+
+            h2{
+                text-align: center;
+                text-decoration: underline;
+                color: darkgreen;
+            }
+            .box{
+                border: solid 2px black;
+                height: 100px;
+                width: 100px;
+            }
+            #box1{
+                background-color: red;
+                 /* display:none hides box and deletes space allocated to it */
+                 display: none;
+                
+            }
+            #box2{
+                background-color: blue;
+                /* visibility:hidden hides box but place is reserved*/
+                visibility: hidden;
+            }
+            #box3{
+                background-color: green;
+                position:absolute;
+                left: 10px;
+                /* to bring this box front use z index */
+                z-index: 10;
+            }
+            #box4{
+                background-color: cadetblue;
+                position: relative;
+                top:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>CSS VISIBILITY & Z-INDEX</h2>
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+    </body>
+</html>
