@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>
+            Web Development Tutorial
+        </title>
+    </head>
+    <body>
+        <h1>JS IF-ELSE CONDITION AND SWITCH CONDITION</h1>
+
+        <script>
+            //we can cahnge vale of same variable
+            var a = 10;
+            var a = "Hello";
+
+            //alternatively we can use let 
+            let b = 20;
+            {
+                let b = "hyy";
+                console.log(b);
+            }
+            console.log(b);
+
+            //conditions
+            const c = 35
+            if(c<18)
+            {
+                console.log("Underage to have drinks");
+            }
+            else{
+                console.log("Enjoy your drinks");
+            }
+
+            //if else if condition
+            const d = 20;
+            if(d<18)
+            {
+                console.log("Under age to drink");
+            }
+            else if(d>=18 && d<=50)
+            {
+                console.log("enjoy your drinks");
+            }
+            else{
+                console.log("not allowed to drink");
+            }
+
+            //switch 
+            const e = "mon";
+            switch(e){
+                case "mon": 
+                    console.log("MONDAY");
+                    break;
+                case "tue":
+                    console.log("TUESDAY");
+                    break;
+                case "wed":
+                    console.log("WEDNESDAY");
+                    break;
+                case "thrus":
+                    confirm.log("THRUSDAY");
+                    break;
+                case "fri":
+                    console.log("FRIDAY");
+                    break;
+                default:
+                    console.log("WEEKENDS");
+                    break;
+            }
+        </script>
+    </body>
+</html>

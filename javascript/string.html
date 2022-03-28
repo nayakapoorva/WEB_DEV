@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Hello Web Development Tutorial</title>
+    </head>
+
+    <body>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quam non itaque praesentium accusamus similique ipsam exercitationem nesciunt qui quae.</p>
+
+        <div id="a"></div>
+
+        <script>
+            var s = "string";
+            var t = " and its operation";
+            console.log(s+t);
+
+            var name = "Apoorva";
+            var description = " a good girl";
+            var cgpa = "9.4";
+
+            var temp = `I'm ${name}. I'm ${description} with CGPA of ${cgpa}`;
+            console.log(temp);
+
+            var leng = name.length;
+            console.log(leng);
+
+            console.log("Thats all for now. \nLets meet after a small break \nBYE BYE \t TAKE CARE");
+
+            document.getElementById('a').innerHTML = 'lets move to next methods in strings'
+
+            var str1 = 'this is a animal';
+            
+            var pos = str1.indexOf('ani');
+            console.log(pos);
+
+            var pos1 = str1.lastIndexOf("is");
+            console.log(pos1);
+
+            var sub1 = str1.slice(1,5);
+            console.log(sub1);
+
+            var sub2 = str1.substring(0,7);
+            console.log(sub2);
+
+            var sub3 = str1.substr(1,3);
+            console.log(sub3);
+
+            var rep = str1.replace("animal","Apoorva");
+            console.log(rep);
+
+            var str2 = "         helloooo     buddy   "
+            console.log(str2.trim());
+
+            console.log(rep.toLowerCase());
+            console.log(rep.toUpperCase());
+        </script>
+    </body>
+</html>
