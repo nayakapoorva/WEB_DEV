@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            Web Development Tutorial
+        </title>
+
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .time_display{
+                font-size: 12px;
+                font-family: cursive;
+                padding: 5px 5px;
+                margin: 10px 10px;
+                text-align: center;
+                border: solid 2px rebeccapurple;
+                border-radius: 5px;
+                width: 100vh;
+            }
+            .btn{
+                font-family: cursive;
+                font-size: 12px;
+                cursor: pointer;
+                padding: 5px 5px;
+                margin: auto;
+                text-align: center;
+                background-color: bisque;
+                border: solid 2px rebeccapurple;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div>
+                <input type="text" name="Time" placeholder="Time" class="time_display">
+            </div>
+            
+            <div >
+                <button type="button" id="start" class="btn" onclick="Start_now()">Start</button>
+                <button type="button" id="stop" class="btn">Stop</button>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        let str = document.getElementById('start');
+        let stp = document.getElementById('stop');
+        var tt = document.getElementsByName('Time');
+        var clear
+
+        function dis_time()
+        {
+            var time = new date();
+
+        }
+        function Start_now(){
+            clear = setTimeout(() => {
+                time = new Date();
+                tt.innerhtml = "time";
+                console.log(time);
+            }, 1000);
+        }
+    </script>
+</html>

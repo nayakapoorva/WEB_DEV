@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Web Development Tutorial
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            JS DOCUMENT OF MODEL (DOM)
+        </h1>
+        <div class="container">
+            <ul id="nav">
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>SERVICES</li>
+                <li>CONTACT US</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            Another Container
+        </div>
+    </body>
+
+    <script>
+        let i = document.getElementById('nav');
+        console.log(i);
+
+        let j = document.getElementsByClassName('container');
+        console.log(j);
+
+        let k = document.querySelector('#nav>li');
+        console.log(k);
+
+        let m = document.querySelectorAll('#nav>li');
+        console.log(m);
+    </script>
+</html>

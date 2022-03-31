@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Web Development Tutorial
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            JS JSON 
+        </h1>
+    </body>
+    <script>
+        let obj1 = {
+            name:"Vnnati",
+            Company:"Perfios",
+            Salary:"10lpa"
+        };
+
+        console.log(obj1);
+
+        let new_string = JSON.stringify(obj1);
+        console.log(new_string);
+
+        let new_obj  = JSON.parse(new_string);
+        console.log(new_obj);
+    </script>
+</html>

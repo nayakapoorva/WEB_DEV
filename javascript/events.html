@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Web Development Tutorial
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            EVENT LISTENER AND DOM
+        </h1>
+
+        <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque adipisci quam dolorum odio iste? Earum, vel neque deserunt hic mollitia doloribus. Numquam maxime repudiandae porro earum suscipit quis? Sunt eius ipsa modi quibusdam quidem tempore repellat incidunt, rerum deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos totam quia id quasi omnis. Provident, dolor modi nulla asperiores, consequuntur vitae quisquam, nostrum possimus veniam ipsa dignissimos! Dolorum nam vel aspernatur, eaque iste animi dicta alias iure possimus. Minus, tenetur!</p>
+
+        <button id="btn" onclick="togglehide()">HIDE/SHOW</button>
+    </body>
+
+    <script>
+        let para = document.getElementById('para');
+        
+        para.addEventListener('mouseover',function run(){
+            console.log("Mouse inside para");
+        });
+
+        para.addEventListener('mouseout',function run(){
+            console.log("Mouse outside para");
+        });
+
+        let btn = document.getElementById('btn');
+
+        function togglehide(){
+            if(para.style.display != 'none'){
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display='block';
+            }
+        };
+    </script>
+</html>
